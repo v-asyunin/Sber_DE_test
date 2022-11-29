@@ -36,7 +36,3 @@ LOAD DATA LOCAL INPATH '/mnt/WideWorldImportersOrders.csv' INTO TABLE WideWorldI
 
 select * from WideWorldImportersOrders limit 100
 ;
-
-/*
-demo: https://www.youtube.com/
-*/
