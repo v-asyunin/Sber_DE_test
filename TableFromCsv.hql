@@ -4,10 +4,10 @@ create database if not exists test_db
 
 use test_db;
 
-drop table if exists WideWorldImportersOrders
+drop table if exists WWI_Sales_Orders
 ;
 
-create table if not exists WideWorldImportersOrders
+create table if not exists WWI_Sales_Orders
 (
 	OrderID int,
 	CustomerID int,
@@ -31,8 +31,8 @@ FIELDS TERMINATED BY ','
 TBLPROPERTIES ("skip.header.line.count"="1")
 ;
 
-LOAD DATA LOCAL INPATH '/mnt/WideWorldImportersOrders.csv' INTO TABLE WideWorldImportersOrders
+LOAD DATA LOCAL INPATH '/mnt/WWI_Sales_Orders.csv' INTO TABLE WWI_Sales_Orders
 ;
 
-select * from WideWorldImportersOrders limit 100
+select * from WWI_Sales_Orders limit 100
 ;

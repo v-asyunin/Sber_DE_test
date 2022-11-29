@@ -6,5 +6,8 @@ docker run --hostname=quickstart.cloudera --privileged=true -t -i -v ~/docker_sh
 to find cloudera port:
 docker inspect <container id>
 
+run .hql script:
+hive -f <filename>
+
 demo:
 https://www.youtube.com/
