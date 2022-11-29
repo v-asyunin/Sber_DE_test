@@ -1,6 +1,6 @@
-###Тестовое задание в Сбер-Core на DE позицию
+##Тестовое задание в Сбер-Core на DE позицию
 
-####run cloudera Docker container:
+##run cloudera Docker container:
 ```
 docker run --hostname=quickstart.cloudera --privileged=true -t -i -v ~/docker_share:/mnt --publish-all=true -p 8888 cloudera/quickstart /usr/bin/docker-quickstart
 ```
