@@ -33,7 +33,7 @@ ___
 Базовая цель - найти потенциальные проблемы несовместимости
 Дополнительная цель - предложить WA по решению несовместимостей для прикладных приложений.
 
-[ответ]()
+[ответ](https://github.com/v-asyunin/Sber_DE_test/blob/main/Spark%20compatibility%20check:%203.2.1%20vs%203.3.md)
 
 ___
 
@@ -50,4 +50,4 @@ ___
 - csv и hql скрипты в GitHub 
 - скринкаст с select-ом таблицы из п.3
 
-[ответ]()
+[ответ](https://github.com/v-asyunin/Sber_DE_test/blob/main/HiveTest.md)
