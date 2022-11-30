@@ -1,7 +1,7 @@
 
 #### script: [TableFromCsv.hql](https://github.com/v-asyunin/Sber_DE_test/blob/main/TableFromCsv.hql)
 #### file: [WWI_Sales_Orders.csv](https://github.com/v-asyunin/Sber_DE_test/blob/main/WWI_Sales_Orders.csv)
-#### demo: [clck](https://www.youtube.com/)
+#### demo: [clck](https://youtu.be/ffsrdrSEjWE)
 
 ---
 
