@@ -3,8 +3,7 @@
 #### file: [WWI_Sales_Orders.csv](https://github.com/v-asyunin/Sber_DE_test/blob/main/WWI_Sales_Orders.csv)
 #### demo: [clck](https://www.youtube.com/)
 
-###
-###
+---
 
 #### run cloudera Docker container:
 ```
@@ -19,4 +18,8 @@ docker inspect <container id>
 #### run .hql script:
 ```
 hive -f <filename>
+```
+#### connect container:
+```
+docker exec -it <mycontainer> bash
 ```
